@@ -14,5 +14,19 @@
 <p>Mountain Landscape Image by kinkate from Pixabay</p>
 
 <a href="https://myverdict.github.io/week2-web-programming-css/index.html">
-    Click here to view live!</a>  
+  Click here to view live!
+</a>
 
+<hr />
+
+<p>
+  <i>
+    ITEC 2560-60: Web Client and Server Programming
+    <br />
+    Minneapolis Community and Technical College (MCTC), Minneapolis, Minnesota
+    <br />
+    Prof. Clara James, Fall 2020
+    <br />
+    August 25, 2020 to December 15, 2020 (Tuesdays)
+  </i>
+</p>

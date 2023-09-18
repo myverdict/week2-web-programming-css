@@ -1,125 +1,127 @@
 /* This style sheet is for the favorites.html page */
 
 body {
-    background-color: lightsteelblue;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: black;
-    margin: 25px;
+  background-color: darkorange;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: black;
+  margin: 25px;
 }
 
 p {
-    color: darkslateblue;
-    font-size: 20px;
+  color: darkslateblue;
+  font-size: 20px;
 }
 
 h1 {
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
-    color: floralwhite;
-    font-size: 30px;
+  color: floralwhite;
+  font-size: 30px;
 }
 
 ul {
-    background-color: lightpink;
+  background-color: lightpink;
 }
 
 li {
-    color: darkslateblue;
-    font-size: 20px;
-    list-style-type: square;
-    padding: 5px;
-    margin: 5px;
+  color: darkslateblue;
+  font-size: 20px;
+  list-style-type: square;
+  padding: 5px;
+  margin: 5px;
 }
 
 /* Centering images */
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-table, tr, th, td {
-    border: 3px black solid;
-    border-collapse: collapse;
+table,
+tr,
+th,
+td {
+  border: 3px black solid;
+  border-collapse: collapse;
 }
 
 th {
-    color: blue;
-    font-size: 25px;
+  color: blue;
+  font-size: 25px;
 }
 
 td {
-    color: wheat;
-    padding: 10px;
+  color: wheat;
+  padding: 10px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* This is for id that is unique */
 #most-fav-food {
-    background-color: magenta;
-    text-decoration: underline;
+  background-color: magenta;
+  text-decoration: underline;
 }
 
 #page-title {
-    text-shadow: 4px 4px black;
+  text-shadow: 4px 4px black;
 }
 
 #fav-movie-name {
-    font-style: italic;
+  font-style: italic;
 }
 
 #fav-musician-name {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 /* This is for class that can be used for multiple elements */
 .second-fav-food {
-    background-color: mediumslateblue;
+  background-color: mediumslateblue;
 }
 
 .fav-div {
-    background-color: rosybrown;
-    border: 5px black double;
-    margin: 10px;
-    padding: 15px;
+  background-color: lightgreen;
+  border: 5px black double;
+  margin: 10px;
+  padding: 15px;
 }
 
 .dec-bkgrnd-color {
-    background-color: fuchsia;
-    text-decoration: none;
+  background-color: fuchsia;
+  text-decoration: none;
 }
 
 .section-header {
-    text-decoration: 3px underline double;
+  text-decoration: 3px underline double;
 }
 
 /* Adding filter on hover to images */
 .fav-image:hover {
-    border-radius: 5px;
-    filter: grayscale(100);
+  border-radius: 5px;
+  filter: grayscale(100);
 }
 
 /* Making images responsive to page size */
 .fav-image {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .credits {
-    font-size: small;
+  font-size: small;
 }

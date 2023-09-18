@@ -1,25 +1,27 @@
 /* This style sheet is for fish.html */
-table, tr, th, td {
-    border: 1px black solid;
-    border-collapse: collapse;
+table,
+tr,
+th,
+td {
+  border: 1px black solid;
+  border-collapse: collapse;
 }
 
 tr:nth-child(even) {
-    background-color: teal;
+  background-color: teal;
 }
 
 tr:nth-child(odd) {
-    background-color: tomato;
+  background-color: tomato;
 }
 
 /* th is more specific than tr; the header row takes the black and not the tomato background color */
 th {
-    width: 100px;
-    background-color: darkslateblue;
-    color: white;
+  width: 100px;
+  background-color: darkslateblue;
+  color: white;
 }
 
 td {
-    text-align: center;
+  text-align: center;
 }
-
