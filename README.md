@@ -8,6 +8,7 @@
   <li>Creating tables and using CSS: Types of fish example</li>
   <li>CSS Basics: Hello page</li>
   <li>Favorites page</li>
+  <li>Lab 2 repository</li>
 </ul>
 
 <p>Forest Image by Free-Photos from Pixabay</p>
